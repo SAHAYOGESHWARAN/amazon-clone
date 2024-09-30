@@ -1,0 +1,22 @@
+.homepage {
+    padding: 20px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
